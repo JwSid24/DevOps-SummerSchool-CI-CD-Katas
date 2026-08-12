@@ -1,3 +1,6 @@
+env:
+  github_username: <your registry username or ${{ github.actor }}>
+  github_password: <your token or ${{ secrets.GITHUB_TOKEN }}>
 name: Main workflow
 on: push
 jobs:
